@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(148, 148, 148);
+  }
+  
+  h1{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+  
+  .card-container {
+      display: flex;
+      flex-direction: row;
+      gap: 160px;
+      flex-wrap: wrap;
+    }
+  
+  .card {
+    height: 400px;
+    width: 600px;
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 4px solid #000000;
+    margin-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+      background-size: cover;
+    
+  
+  }
+  
+  .box {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: white;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 7px;
+    
+  }
+  
+  
+  .subtitle {
+    color: #880000;
+    text-align: center;
+  }
+  
+  .card1 {
+    background-image: url('https://i.pinimg.com/736x/b4/31/9c/b4319c53c9f346014b383b500cad9917.jpg');
+  }
+  
+  .card2 {
+    background-image: url('https://i.pinimg.com/736x/86/95/a2/8695a223b10669641ac841cd35c07a2c.jpg');
+  }
+  
+  .card3 {
+    background-image: url('https://i.pinimg.com/736x/89/71/dc/8971dcd916a560c3b4c89e3ace057afe.jpg');
+  }
+  
+  .card4 {
+    background-image: url('https://i.pinimg.com/736x/07/1a/05/071a0525ceca895d724bc1a228ccb088.jpg');
+  }
+  
+  .card5 {
+    background-image: url('https://i.pinimg.com/736x/bc/73/a4/bc73a44e089b0a672275de1701c25ca1.jpg');
+  }
+  
+  .card6 {
+    background-image: url('https://i.pinimg.com/736x/ff/60/59/ff6059f3c21e0f0db2531251397ebfc7.jpg');
+  }
+  
+  .card7 {
+    background-image: url('https://i.pinimg.com/736x/14/63/e4/1463e4c83c9f8fbd6f1193109cd5e6c8.jpg');
+  }
+  
+  .card8 {
+    background-image: url('https://i.pinimg.com/736x/15/64/a9/1564a9ca0c4778098a2141f2f04ea9b7.jpg');
+  }
+  
+  .card9 {
+    background-image: url('https://i.pinimg.com/736x/44/eb/26/44eb264dd6054ca90c68362f13cc757f.jpg');
+  }
+  
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
+  }
+
+  .button-container2 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 18.2vh; 
+  }
+  
+  button {
+    background-color: rgb(39, 39, 39);
+    height: 80px;
+    width: 300px;
+    border-radius: 3px 7px;
+    cursor: pointer;
+      transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: #5d5d5f;
+    box-shadow: 0 0 0 5px #ffffff5f;
+      transition: 0.5s;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
